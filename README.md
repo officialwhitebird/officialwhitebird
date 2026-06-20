@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="https://officialwhitebird.github.io/my-app/">Portfolio</a>
+  <a href="https://officialwhitebird.github.io/portfolio/">Portfolio</a>
   ·
   <a href="https://github.com/officialwhitebird?tab=repositories">Repositories</a>
 </p>
@@ -29,7 +29,7 @@ I am an independent builder in Japan, exploring how software and AI can turn com
 | Project | Purpose |
 | --- | --- |
 | [repo-ready](https://github.com/officialwhitebird/repo-ready) | A read-only preflight checker for repositories headed to GitHub |
-| [Portfolio](https://github.com/officialwhitebird/my-app) | The source for my public project portfolio, deployed with GitHub Pages |
+| [Portfolio](https://github.com/officialwhitebird/portfolio) | The source for my public project portfolio, deployed with GitHub Pages |
 
 ### Working principles
 
