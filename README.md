@@ -1,13 +1,19 @@
 # officialwhitebird
 
-A local-first garage for small, single-purpose CLI tools extracted from AI orchestration friction.
+A local-first garage for small, single-purpose CLI tools designed to make AI-orchestration boundaries explicit.
 
-## Selected Work
+AI coding agents function most reliably when their operational entry and exit boundaries are clearly structured. This space provides offline, deterministic checkers to verify instructions before runs begin and to audit documentation before public release.
 
-- [handoff-lint](https://github.com/officialwhitebird/handoff-lint): An experimental, offline CLI tool to verify the structure, metadata, and sections of agent work instruction files before execution.
-- [repo-ready](https://github.com/officialwhitebird/repo-ready): A read-only preflight checker for repositories headed to GitHub.
+## Selected Tools
 
-## Working Principles
+| Repository | Boundary | What it checks |
+|---|---|---|
+| [handoff-lint](https://github.com/officialwhitebird/handoff-lint) | Input Boundary | Verifies coding-agent work instructions and scope bounds before execution |
+| [contract-lint](https://github.com/officialwhitebird/contract-lint) | Execution-Contract Boundary | Validates a completed run record against its declared contract (outputs, verification, gates) before the result is trusted |
+| [claim-lint](https://github.com/officialwhitebird/claim-lint) | Output Boundary | Audits public-facing documents for unevidenced claims and internal leakages before publication |
 
-Read first. Make small changes. Keep decisions visible.
-Prefer reversible systems. Leave judgment with the human.
+## Stance
+
+* Local-first and offline: Every checker runs on your machine with no external network requirements.
+* Bounded and deterministic: We prioritize simple string, JSON, or regex matching over subjective evaluation or language model judgment.
+* Human in the loop: These utilities help visualize mechanical omissions, leaving final validation and authority to the human operator.
