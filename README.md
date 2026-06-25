@@ -10,6 +10,7 @@ AI coding agents function most reliably when their operational entry and exit bo
 |---|---|---|
 | [handoff-lint](https://github.com/officialwhitebird/handoff-lint) | Input Boundary | Verifies coding-agent work instructions and scope bounds before execution |
 | [contract-lint](https://github.com/officialwhitebird/contract-lint) | Execution-Contract Boundary | Validates a completed run record against its declared contract (outputs, verification, gates) before the result is trusted |
+| [policy-lint](https://github.com/officialwhitebird/policy-lint) | Execution-Authorization Boundary | Classifies a proposed command against a declared local policy (allow / owner-gate / reject / forbidden) before it runs |
 | [claim-lint](https://github.com/officialwhitebird/claim-lint) | Output Boundary | Audits public-facing documents for unevidenced claims and internal leakages before publication |
 
 ## Stance
