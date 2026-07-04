@@ -13,6 +13,7 @@ AI coding agents function most reliably when their operational entry and exit bo
 | [policy-lint](https://github.com/officialwhitebird/policy-lint) | Execution-Authorization Boundary | Classifies a proposed command against a declared local policy (allow / owner-gate / reject / forbidden) before it runs |
 | [claim-lint](https://github.com/officialwhitebird/claim-lint) | Output Boundary | Audits public-facing documents for unevidenced claims and internal leakages before publication |
 | [officialwhitebird-boundary-skills](https://github.com/officialwhitebird/officialwhitebird-boundary-skills) | Run Boundary Pack | Routes AI-run boundary checks across handoff-lint, policy-lint, contract-lint, and claim-lint with a local case study |
+| [video-automation-skill](https://github.com/officialwhitebird/video-automation-skill) | Media Workflow Boundary | Routes local video cut, subtitle, smart-cut, and export workflows with preview, overwrite, and API gates visible |
 
 ## Stance
 
