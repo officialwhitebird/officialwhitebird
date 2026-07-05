@@ -20,3 +20,9 @@ AI coding agents function most reliably when their operational entry and exit bo
 * Local-first and offline: Every checker runs on your machine with no external network requirements.
 * Bounded and deterministic: We prioritize simple string, JSON, or regex matching over subjective evaluation or language model judgment.
 * Human in the loop: These utilities help visualize mechanical omissions, leaving final validation and authority to the human operator.
+
+## Contact
+
+Open to work on AI-orchestration tooling, agent workflows, and decision-support systems.
+
+Reach me at officialwhitebird@gmail.com.
