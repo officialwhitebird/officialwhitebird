@@ -15,6 +15,10 @@ AI coding agents function most reliably when their operational entry and exit bo
 | [officialwhitebird-boundary-skills](https://github.com/officialwhitebird/officialwhitebird-boundary-skills) | Run Boundary Pack | Routes AI-run boundary checks across handoff-lint, policy-lint, contract-lint, and claim-lint with a local case study |
 | [video-automation-skill](https://github.com/officialwhitebird/video-automation-skill) | Media Workflow Boundary | Routes local video cut, subtitle, smart-cut, and export workflows with preview, overwrite, and API gates visible |
 
+## Writing
+
+* [How I Run an AI Software Factory: Distributed Agents, Boundary Checks, and Evidence Trails](https://dev.to/whitebird_official_e89f70/how-i-run-an-ai-software-factory-distributed-agents-boundary-checks-and-evidence-trails-2i3) — how the four boundary checks fit together across a full AI coding run.
+
 ## Stance
 
 * Local-first and offline: Every checker runs on your machine with no external network requirements.
